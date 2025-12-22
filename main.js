@@ -2,20 +2,20 @@ document.getElementById('btn1').addEventListener('click',()=>{
   document.getElementById('btn1').classList.add('active');
   document.getElementById('btn2').classList.remove('active');
   document.getElementById('btn3').classList.remove('active');
-  document.getElementById('img').src = '/img/1.png';
+  document.getElementById('img').src = '/1.png';
 });
 document.getElementById('btn2').addEventListener('click',()=>{
   document.getElementById('btn1').classList.remove('active');
   document.getElementById('btn2').classList.add('active');
   document.getElementById('btn3').classList.remove('active');
-  document.getElementById('img').src = '/img/2.jpg';
+  document.getElementById('img').src = '/2.jpg';
 
 });
 document.getElementById('btn3').addEventListener('click',()=>{
   document.getElementById('btn1').classList.remove('active');
   document.getElementById('btn2').classList.remove('active');
   document.getElementById('btn3').classList.add('active');
-  document.getElementById('img').src = '/img/3.jpg';
+  document.getElementById('img').src = '/3.jpg';
 
 });
 
